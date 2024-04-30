@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 int checkValidInput(int inputLen,char *s);
 int asciiToInt(char *ascii);
