@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int checkValidInput(int inputLen,char *s);
 int asciiToInt(char *ascii);
@@ -52,7 +53,7 @@ void encrypt(int step, char *plainText)
     {
         len++;
     }
-    char cipherText[len];
+    char *cipherText = malloc(len);
     for (int i = 0; i < len; i++)
     {
         if (plainText[i] >= 'A' && plainText[i] <= 'Z')
@@ -70,4 +71,5 @@ void encrypt(int step, char *plainText)
     }
     cipherText[len] = '\0';
     printf("ciphertext: %s\n", cipherText);
+    free(cipherText);
 }
