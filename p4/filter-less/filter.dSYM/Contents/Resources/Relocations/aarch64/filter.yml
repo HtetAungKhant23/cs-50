@@ -2,11 +2,11 @@
 triple:          'arm64-apple-darwin'
 binary-path:     filter
 relocations:
-  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003228, symSize: 0x4F8 }
-  - { offsetInCU: 0x3A, offset: 0x3A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003228, symSize: 0x4F8 }
-  - { offsetInCU: 0x1E, offset: 0x51B, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x100003768, symSize: 0x18C }
-  - { offsetInCU: 0x32, offset: 0x52F, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x100003768, symSize: 0x18C }
-  - { offsetInCU: 0xC6, offset: 0x5C3, size: 0x8, addend: 0x0, symName: _sepia, symObjAddr: 0x18C, symBinAddr: 0x1000038F4, symSize: 0x384 }
-  - { offsetInCU: 0x179, offset: 0x676, size: 0x8, addend: 0x0, symName: _reflect, symObjAddr: 0x510, symBinAddr: 0x100003C78, symSize: 0x168 }
-  - { offsetInCU: 0x21B, offset: 0x718, size: 0x8, addend: 0x0, symName: _blur, symObjAddr: 0x678, symBinAddr: 0x100003DE0, symSize: 0x18 }
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002F90, symSize: 0x4F8 }
+  - { offsetInCU: 0x3A, offset: 0x3A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002F90, symSize: 0x4F8 }
+  - { offsetInCU: 0x1E, offset: 0x51B, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x1000034D0, symSize: 0x18C }
+  - { offsetInCU: 0x32, offset: 0x52F, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x1000034D0, symSize: 0x18C }
+  - { offsetInCU: 0xC6, offset: 0x5C3, size: 0x8, addend: 0x0, symName: _sepia, symObjAddr: 0x18C, symBinAddr: 0x10000365C, symSize: 0x384 }
+  - { offsetInCU: 0x179, offset: 0x676, size: 0x8, addend: 0x0, symName: _reflect, symObjAddr: 0x510, symBinAddr: 0x1000039E0, symSize: 0x168 }
+  - { offsetInCU: 0x21B, offset: 0x718, size: 0x8, addend: 0x0, symName: _blur, symObjAddr: 0x678, symBinAddr: 0x100003B48, symSize: 0x2B0 }
 ...
