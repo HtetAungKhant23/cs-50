@@ -12,12 +12,12 @@ typedef struct node {
 int main(int argc, char *argv[]) {
   node *list = NULL;
 
-  // prepanding
+  // prepending
   for (int i = 1; i < argc; i++) {
     node *n = malloc(sizeof(node));
     if (n == NULL) {
       free(list);
-      printf("cannot take memmory location for temp\n");
+      printf("cannot take memory location for temp\n");
       return 1;
     }
 
