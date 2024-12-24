@@ -1,4 +1,7 @@
 {% extends 'layout.html' %} {% block body %}
 <h3>Success</h3>
-<div>Welcome from {{ sport }} team! {{ name }}</div>
+<div>
+    Welcome from {% for sport in sports %} {{sport}} {% endfor %} team! {{ name
+    }}
+</div>
 {% endblock %}
