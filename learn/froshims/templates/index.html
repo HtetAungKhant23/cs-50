@@ -9,12 +9,14 @@
         placeholder="Name"
         type="text"
     />
-    <select name="sport">
+    <!-- <select name="sport">
         <option disabled selected value="">Sport</option>
         {% for sport in sports %}
         <option value="{{sport}}">{{ sport }}</option>
         {% endfor %}
-    </select>
+    </select> -->
+    {% for sport in sports %}
+    <input name="sport" type="radio" value="{{sport}}" /> {{sport}} {% endfor %}
     <button type="submit">register</button>
 </form>
 
