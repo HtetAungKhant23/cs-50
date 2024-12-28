@@ -1,0 +1,19 @@
+{% extends "layout.html" %} {% block title %} Quoted {% endblock %} {% block
+main %}
+<table class="table table-bordered table-striped">
+    <thead class="thead-light">
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{ res.symbol }}</td>
+            <td>{{ res.name }}</td>
+            <td>{{ res.price }}</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
