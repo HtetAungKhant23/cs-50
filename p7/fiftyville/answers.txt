@@ -1,0 +1,3 @@
+The THIEF is: id(686048), name(Bruce)
+The city the thief ESCAPED TO: id(4), city(New York City), full name(LaGuardia Airport)
+The ACCOMPLICE is: id(864400), name(Robin)
